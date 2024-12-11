@@ -1,11 +1,10 @@
-
-
 'use client';
 import React, { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Navbar from '../Components/Navbar';
 import Image from 'next/image';
+import Link from 'next/link';
 
 function Page() {
   useEffect(() => {
@@ -25,7 +24,7 @@ function Page() {
         <div className="max-w-screen-xl 2xl:max-w-screen-3xl px-8 md:px-12 mx-auto py-12 lg:py-24 space-y-24 flex flex-col justify-center">
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
             {/* Logos */}
-            <a href="#_" className="transform transition-all duration-500 hover:scale-105 hover:-translate-y-4" data-aos="flip-left">
+            <Link href="#_" className="transform transition-all duration-500 hover:scale-105 hover:-translate-y-4" data-aos="flip-left">
               <Image
                 src="/l1.jpg"
                 width={400}  // Specify width
@@ -33,8 +32,8 @@ function Page() {
                 className="rounded-xl rotate-6 hover:rotate-0 object-cover w-full h-64"
                 alt="Logo 1"
               />
-            </a>
-            <a href="#_" className="transform transition-all duration-500 hover:scale-105 hover:-translate-y-4" data-aos="flip-left">
+            </Link>
+            <Link href="#_" className="transform transition-all duration-500 hover:scale-105 hover:-translate-y-4" data-aos="flip-left">
               <Image
                 src="/l2.jpg"
                 width={400}  // Specify width
@@ -42,8 +41,8 @@ function Page() {
                 className="rounded-xl -rotate-12 hover:rotate-0 object-cover w-full h-64"
                 alt="Logo 2"
               />
-            </a>
-            <a href="#_" className="transform transition-all duration-500 hover:scale-105 hover:-translate-y-4" data-aos="flip-left">
+            </Link>
+            <Link href="#_" className="transform transition-all duration-500 hover:scale-105 hover:-translate-y-4" data-aos="flip-left">
               <Image
                 src="/l3.jpg"
                 width={400}  // Specify width
@@ -51,30 +50,30 @@ function Page() {
                 className="rounded-xl rotate-6 hover:rotate-0 object-cover w-full h-64"
                 alt="Logo 3"
               />
-            </a>
-            <a href="#_" className="transform transition-all duration-500 hover:scale-105 hover:-translate-y-4" data-aos="flip-left">
+            </Link>
+            <Link href="#_" className="transform transition-all duration-500 hover:scale-105 hover:-translate-y-4" data-aos="flip-left">
               <Image
                 src="/l4.jpg"
                 width={400}  // Specify width
                 height={300} // Specify height
-                className="rounded-xl -rotate-12 hover:rotate-0 object-cover w-full h-64"
+                className="rounded-xl -rotate-12 hover:rotate-0 object-cover w-full h-48"
                 alt="Logo 4"
               />
-            </a>
+            </Link>
           </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 mt-12">
             {/* Graphics */}
-            <a href="#_" className="transform transition-all duration-500 hover:scale-105 hover:-translate-y-4" data-aos="flip-left">
+            <Link href="#_" className="transform transition-all duration-500 hover:scale-105 hover:-translate-y-4" data-aos="flip-left">
               <Image
                 src="/g1.jpg"
                 width={400}  // Specify width
                 height={300} // Specify height
-                className="rounded-xl rotate-6 hover:rotate-0 object-cover w-full h-64"
+                className="rounded-xl rotate-6 hover:rotate-0 object-cover w-full h-52"
                 alt="Graphic 1"
               />
-            </a>
-            <a href="#_" className="transform transition-all duration-500 hover:scale-105 hover:-translate-y-4" data-aos="flip-left">
+            </Link>
+            <Link href="#_" className="transform transition-all duration-500 hover:scale-105 hover:-translate-y-4" data-aos="flip-left">
               <Image
                 src="/g2.jpg"
                 width={400}  // Specify width
@@ -82,25 +81,61 @@ function Page() {
                 className="rounded-xl -rotate-12 hover:rotate-0 object-cover w-full h-64"
                 alt="Graphic 2"
               />
-            </a>
-            <a href="#_" className="transform transition-all duration-500 hover:scale-105 hover:-translate-y-4" data-aos="flip-left">
+            </Link>
+            <Link href="#_" className="transform transition-all duration-500 hover:scale-105 hover:-translate-y-4" data-aos="flip-left">
               <Image
                 src="/g3.jpg"
                 width={400}  // Specify width
                 height={300} // Specify height
-                className="rounded-xl rotate-6 hover:rotate-0 object-cover w-full h-64"
+                className="rounded-xl rotate-6 hover:rotate-0 object-cover w-full h-40"
                 alt="Graphic 3"
               />
-            </a>
-            <a href="#_" className="transform transition-all duration-500 hover:scale-105 hover:-translate-y-4" data-aos="flip-left">
+            </Link>
+            <Link href="#_" className="transform transition-all duration-500 hover:scale-105 hover:-translate-y-4" data-aos="flip-left">
               <Image
                 src="/g4.jpg"
                 width={400}  // Specify width
                 height={300} // Specify height
-                className="rounded-xl -rotate-12 hover:rotate-0 object-cover w-full h-64"
+                className="rounded-xl -rotate-12 hover:rotate-0 object-cover w-full h-60"
                 alt="Graphic 4"
               />
-            </a>
+            </Link>
+            <Link href="#_" className="transform transition-all duration-500 hover:scale-105 hover:-translate-y-4" data-aos="flip-left">
+              <Image
+                src="/g5.jpg"
+                width={400}  // Specify width
+                height={300} // Specify height
+                className="rounded-xl -rotate-12 hover:rotate-0 object-cover w-full h-60"
+                alt="Graphic 4"
+              />
+            </Link>
+            <Link href="#_" className="transform transition-all duration-500 hover:scale-105 hover:-translate-y-4" data-aos="flip-left">
+              <Image
+                src="/g6.jpg"
+                width={400}  // Specify width
+                height={300} // Specify height
+                className="rounded-xl -rotate-12 hover:rotate-0 object-cover w-full h-60"
+                alt="Graphic 4"
+              />
+            </Link>
+            <Link href="#_" className="transform transition-all duration-500 hover:scale-105 hover:-translate-y-4" data-aos="flip-left">
+              <Image
+                src="/g7.webp"
+                width={400}  // Specify width
+                height={300} // Specify height
+                className="rounded-xl -rotate-12 hover:rotate-0 object-cover w-full h-60"
+                alt="Graphic 4"
+              />
+            </Link>
+            <Link href="#_" className="transform transition-all duration-500 hover:scale-105 hover:-translate-y-4" data-aos="flip-left">
+              <Image
+                src="/g8.webp"
+                width={400}  // Specify width
+                height={300} // Specify height
+                className="rounded-xl -rotate-12 hover:rotate-0 object-cover w-full h-60"
+                alt="Graphic 4"
+              />
+            </Link>
           </div>
         </div>
       </section>
@@ -163,19 +198,37 @@ function Page() {
                 src="/w6.jpg"
                 width={400}  // Specify width
                 height={300} // Specify height
-                className="rounded-xl -rotate-12 hover:rotate-0 object-cover w-full h-64"
+                className="rounded-xl -rotate-12 hover:rotate-0 object-cover w-full h-60"
                 alt="Project 6"
               />
             </a>
             <a href="#_" className="transform transition-all duration-500 hover:scale-105 hover:-translate-y-4" data-aos="flip-left">
               <Image
                 src="/w7.jpg"
-                width={400}  // Specify width
+                width={1000}  // Specify width
                 height={300} // Specify height
                 className="rounded-xl rotate-6 hover:rotate-0 object-cover w-full h-64"
                 alt="Project 7"
               />
             </a>
+            <a href="#_" className="transform transition-all duration-500 hover:scale-105 hover:-translate-y-4" data-aos="flip-left">
+              <Image
+                src="/w8.jpg"
+                width={400}  // Specify width
+                height={300} // Specify height
+                className="rounded-xl rotate-6 hover:rotate-0 object-cover w-full h-64"
+                alt="Project 8"
+              />
+            </a>
+            <a href="#_" className="transform transition-all duration-500 hover:scale-105 hover:-translate-y-4" data-aos="flip-left">
+              <Image
+                src="/w9.jpg"
+                width={400}  // Specify width
+                height={300} // Specify height
+                className="rounded-xl rotate-6 hover:rotate-0 object-cover w-full h-64"
+                alt="Project 9"
+              />
+             </a>
           </div>
 
           <h1 className="mt-60 text-center bg-clip-text text-transparent bg-gradient-to-r from-indigo-500 to-teal-500 text-5xl font-black" data-aos="fade-up">
